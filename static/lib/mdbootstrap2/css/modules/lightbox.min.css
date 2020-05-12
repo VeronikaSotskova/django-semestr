@@ -464,7 +464,7 @@
 }
 
 .pswp__preloader--active .pswp__preloader__icn {
-    background: url(../img/lightbox/preloader.gif) 0 0 no-repeat
+    /*background: url(../img/lightbox/preloader.gif) 0 0 no-repeat*/
 }
 
 .pswp--css_animation .pswp__preloader--active {
