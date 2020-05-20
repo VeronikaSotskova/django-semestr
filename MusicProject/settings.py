@@ -166,14 +166,14 @@ REST_FRAMEWORK = {
 EMAIL_USE_TLS = True
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'verasos13@gmail.com'
+EMAIL_HOST_USER = 'gmail@gmail.com'
 EMAIL_HOST_PASSWORD = 'password'
 SERVER_EMAIL = EMAIL_HOST_USER
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 
-REDIS_URL = 'redis://h:p67ade48f230accac6a5a7a61d3c6b6e9faf93ec06d3bd6b96a5163f94e3a2d94@ec2-63-34-78-24.eu-west-1.compute.amazonaws.com:24159'
+REDIS_URL = 'redis://h:p67ade48f230acc4@ec2-63-34-78-24.eu-west-1.compute.amazonaws.com:24159'
 CELERY_BROKER_URL = REDIS_URL
 CELERY_BROKER_TRANSPORT_OPTIONS = {'visibility_timeout': 3600}
 CELERY_RESULT_BACKEND = REDIS_URL
