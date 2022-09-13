@@ -23,7 +23,7 @@ django-tempus-dominus==5.1.2.13
 djangorestframework==3.11.0
 drf-yasg==1.17.1
 easy-thumbnails==2.7
-flower==0.9.4
+flower==1.2.0
 gunicorn==20.0.4
 humanize==0.5.1
 idna==2.9
